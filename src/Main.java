@@ -1,6 +1,6 @@
 public class Main {
     public static void main(String[] args) {
-        Solution sln = new Solution();
+        MaxAreaOfIsland sln = new MaxAreaOfIsland();
         int[][] field = {
                 {0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0},
                 {0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 0, 0, 0},
