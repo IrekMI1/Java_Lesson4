@@ -6,9 +6,9 @@ public class SimplifyPath {
         ArrayDeque<String> deque = new ArrayDeque<>();
 
         for (String s : pathArr) {
-            if (s.equals("..") && !deque.isEmpty()) {
+            if ("..".equals(s) && !deque.isEmpty()) {
                 deque.removeLast();
-            } else if (!s.equals("") && !s.equals("..") && !s.equals(".")) {
+            } else if (!"".equals(s) && !"..".equals(s) && !".".equals(s)) {
                 deque.add(s);
             }
         }
